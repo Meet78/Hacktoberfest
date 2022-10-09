@@ -120,3 +120,67 @@ class C(A, B):
 
 
 c = C()
+
+
+#Multi-Level Inheritance
+#Example
+ 
+class grandparent:                 # first lvl 
+    def func1:                   
+        print(“Hello Grandparent”)
+ 
+class parent(grandparent):         # second lvl
+    def func2:                   
+        print(“Hello Parent”)
+ 
+class child(parent):               # third lvl
+    def func3:                   
+        print(“Hello Child”)   
+                               
+ 
+# Driver
+test = child()                     # object created
+test.func1()                       # 3rd lvl calls 1st lvl
+test.func2()                       # 3rd lvl calls 2nd lvl
+test.func3()                       # 3rd lvl calls 3rd lvl
+
+
+
+#Hybrid Inheritance
+
+#Example
+
+ 
+class parent1:                            # 1st parent class
+    def func1:                   
+        print(“Hello Parent”)
+ 
+ 
+class parent2:                            # 2nd parent class
+    def func2:                   
+        print(“Hello Parent”)
+ 
+class child1(parent1):                    # 1st child class
+    def func3:                   
+        print(“Hello Child1”)
+ 
+ 
+class child2(child1, parent2):            # 2nd child class
+    def func4:                   
+        print(“Hello Child2”)   
+                               
+ 
+# Driver Code
+test1 = child1()                          # object created
+test2 = child2()
+ 
+test1.func1()                       # child1 calling parent1 
+test1.func2()                       # child1 calling its own 
+ 
+test2.func1()                       # child2 calling parent1 
+test2.func2()                       # child2 calling parent2 
+test2.func3()                       # child2 calling child1 
+test2.func4()                       # child2 calling its own 
+
+
+
