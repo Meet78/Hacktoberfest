@@ -38,3 +38,32 @@ lap2 = s2.lap
 
 print(id(lap1))
 print(id(lap2))
+
+#ex-2
+class Hello:
+
+	# constructor method
+
+
+def __init__(self):
+
+
+# object attributes
+self.course = "Campus preparation"
+self.duration = "2 months"
+
+# define a show method
+# for printing the content
+
+
+def show(self):
+
+
+print("Course:", self.course)
+print("Duration:", self.duration)
+
+# class object
+outer = Hello()
+
+# method calling
+outer.show()
