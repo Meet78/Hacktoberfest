@@ -1,5 +1,7 @@
 #Filter, Map, Reduce - Higher Order Function
 
+import re
+
 '''
 Filter - The filter function is used to filter out the elements of an iterable(sequence) depending on a function that tests each element in the sequence to be true or not.
 -> it returns those elements of sequence, for which function is ture.
@@ -71,6 +73,13 @@ print(type(result))
 result = list(map(lambda n : (n + 2),a))
 print(result)
 print(type(result))
+
+#or
+
+def remove_punctuation(word):
+     return re.sub(r'[!?.:;,"()-]', "", word)
+
+remove_punctuation("...Hello!")
 
 
 # ex.2
