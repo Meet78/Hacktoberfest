@@ -73,3 +73,7 @@ x.reverse()
 y.reverse()
 print(x)
 print(y)
+
+#ex-7
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
