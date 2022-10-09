@@ -5,7 +5,7 @@
 '''
 
 #READ DATA
-f = open('READ.txt','r')
+f = open('READ.txt','y')
 
 # open method, READ = File Name, r = Mode(read)
 print(f.read()) #this will print a entrire file data
@@ -18,7 +18,7 @@ print(f.readline(4))
 
 
 #WRITE DATA
-f = open('READ.txt','w')
+f = open('READ.txt','x')
 # if we have file -> it will write on it otherwise it will create it.
 f.write('Java')
 f.write('C++')
