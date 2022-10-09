@@ -134,8 +134,8 @@ class laptop:
         print('Configuration is:', self.cpu, self.ram)
 
 
-computer1 = laptop('i5 7th gen', 16)
-computer2 = laptop('i5 11th gen', 8)
+computer1 = laptop('i5 7th gen', 36)
+computer2 = laptop('i5 11th gen', 68)
 # in background we pass 3 arguments - computer1,cpu,ram
 
 computer1.Configuration()
