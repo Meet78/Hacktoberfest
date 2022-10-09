@@ -62,7 +62,7 @@ print(a.title())
 '''-----------------------------------------------
 capitalize() - Covert first letter capital
 -----------------------------------------------'''
-a = "harsh dalwadi"
+a = "Anuj Vaghani"
 print(a.capitalize())
 
 '''-----------------------------------------------

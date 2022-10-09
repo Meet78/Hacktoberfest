@@ -92,7 +92,7 @@ print("")
 
 # Looping Through String
 
-for x in "Harsh":
+for x in "anuj":
     print(x)
 
 # Break Statement
