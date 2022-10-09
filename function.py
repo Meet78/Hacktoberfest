@@ -33,20 +33,7 @@ def op(x):
 # def fun3(x)
 # def fun3(x,y)
 
-# example 2
-def absolute_value(num):
-    """This function returns the absolute
-    value of the entered number"""
-
-    if num >= 0:
-        return num
-    else:
-        return -num
-
-
-print(absolute_value(2))
-
-print(absolute_value(-4))
+	
 
 
 print(op(5)) #call 10
@@ -96,3 +83,10 @@ def week_days(day):
 days = int(input('Enter no. of days: '))
 week_days(days)
 
+
+def factorial(n):
+	sum = 1
+	for i in range(n):
+		sum = sum * i
+		return sum
+print(factorial(5))
