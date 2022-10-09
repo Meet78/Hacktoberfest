@@ -33,6 +33,12 @@ result = list(filter(highest_marks,a1))
 print(result)
 print(type(result))
 
+# ex-33 | map example
+fruit = ["Apple", "Banana", "Pear", "Apricot", "Orange"]
+map_object = map(lambda s: s[0] == "A", fruit)
+
+print(list(map_object))
+
 # or
 
 result = list(filter(lambda n : (n >= 80),a))
