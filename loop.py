@@ -72,7 +72,7 @@ which means values from 2 to 6 (but not including 6):
 -----------------------------------------------'''
 
 for x in range(1, 6):
-    print(x, "Harsh")
+    print(x, "anuj")
 
 '''-----------------------------------------------
 The range() function defaults to increment the sequence by 1,
@@ -80,7 +80,7 @@ however it is possible to specify the increment value by adding a third paramete
 -----------------------------------------------'''
 
 for ls in range(50, 1, -5):
-    print(ls, "Harsh Dalwadi")
+    print(ls, "anuj vaghani")
 
 # With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc
 
