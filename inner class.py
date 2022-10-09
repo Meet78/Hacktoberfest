@@ -17,14 +17,14 @@ class student:
 
 	class laptop: #inner class
 		def __init__(self):
-			self.brand = 'Lenovo'
+			self.brand = 'Lenovo1'
 			self.cpu = 'i5 7th gen'
 			self.ram = 16
 
 		def show(self):
 			print(self.brand,self.cpu,self.ram)
 
-s1 = student('Harsh',27)
+s1 = student('Harsh',25)
 s2 = student('Python',22)
 
 s1.show()
