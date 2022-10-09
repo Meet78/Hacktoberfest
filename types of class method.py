@@ -16,7 +16,7 @@ class student:
 	def avg(self):  #instance method -> works with object
 		return (self.m1 + self.m2 + self.m3 )/3
 
-s1 = student(10,20,30)
+s1 = student(10,20,40)
 s2 = student(50,60,70)
 
 print(s1.avg())
