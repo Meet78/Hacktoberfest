@@ -12,7 +12,7 @@ Arithmatic operators
 
 # Addition
 a = 10
-a = a + 10
+a = a + 12
 print(a)
 
 # Subtraction
@@ -27,7 +27,7 @@ print(a)
 
 # Division
 a = 12
-a = a / 10
+a = a / 20
 print(a)
 
 # Modulo - Reminder
