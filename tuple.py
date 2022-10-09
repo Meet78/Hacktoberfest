@@ -7,5 +7,5 @@ print(tup)
 print(type(tp))
 
 print(t[2])
-print(t[1:3])
+print(t[1:2])
 print(tup[::-1])
