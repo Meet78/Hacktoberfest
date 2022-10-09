@@ -38,13 +38,13 @@ print(y.rstrip())
 '''----------------------------------------------------
 strip() - It removes white space from beginning and end
 ----------------------------------------------------'''
-a = "   Harsh Dalwadi "
+a = "   Anuj Vaghani "
 print(a.strip())
 
 '''-----------------------------------------------
 upper() - Covert all text into upper case
 -----------------------------------------------'''
-a = "harsh dalwadi"
+a = "Anuj Vaghani"
 print(a.upper())
 
 '''-----------------------------------------------
@@ -68,7 +68,7 @@ print(a.capitalize())
 '''-----------------------------------------------
 replace(original,change) - replace word 
 -----------------------------------------------'''
-a = "Harsh Di"
+a = "Anuj Vaghani"
 print(a.replace("Dalwadi","prajapati"))
 
 '''-----------------------------------------------
