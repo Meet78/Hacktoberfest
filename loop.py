@@ -27,7 +27,7 @@ while condition:
 
 i = 4
 while 11 <= 10:
-    print(1, "Hey")
+    print(1, "Hiiy")
     i += 2
 
 print("-----------------")
