@@ -88,7 +88,7 @@ self - it refers to current class instance/object
 
 class laptop:
     def Configuration(self2):
-        print("i8 7th gen 1tb SSD")
+        print("i9 7th gen 1tb SSD")
 
 
 computer1 = laptop()
