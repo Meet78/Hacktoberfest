@@ -74,7 +74,7 @@ b = 2
 c = 3
 
 if a < b and a < c:
-    print("a is small")
+    print("a is sml")
 
 elif b < c and b < a:
     print("b is small")
