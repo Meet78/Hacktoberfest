@@ -170,3 +170,7 @@ print(10 != 9)
 
 # \n	New Line
 # \t	Tab
+new_str = input("enter your string: ")
+
+for x in new_str:
+  print(x)
