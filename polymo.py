@@ -46,7 +46,7 @@ class Myclass:
 		if a!=None and b!=None and c!=None:
 			s = a + b + c
 		elif a!=None and b!=None:
-			s = a + b
+			s = a + b + c
 		elif a!=None:
 			s = a
 		else:
