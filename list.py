@@ -8,8 +8,8 @@ print(lst)
 print(lst[1:5:2])
 
 #Change Element
-lst[2] = " prince Modi"
-print(lst[2])
+lst[2] = " prince patel"
+print(lst[3])
 
 #Check Length of List
 print(len(lst))
@@ -68,7 +68,7 @@ lst = lst1.copy()
 print(lst)
 
 #Concate two list
-x = [1,2,3,4,5]
+x = [1,2,3,4,3]
 y = ["Harsh","Jimit","Aalap",]
 z = x + y
 print(z)
