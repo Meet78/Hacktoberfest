@@ -1,7 +1,7 @@
 # Strings
 
-current_year = 2020
-birth_year = 1999
+current_year = 2019
+birth_year = 1998
 age = current_year - birth_year
 print("Age:",age)
 
