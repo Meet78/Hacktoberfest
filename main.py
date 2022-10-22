@@ -21,8 +21,8 @@ a = a - 10
 print(a)
 
 # Multiplication
-a = 10
-a = a * 10
+a = 9
+a = a * 9
 print(a)
 
 # Division
